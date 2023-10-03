@@ -1,8 +1,18 @@
-to comenzar;
-    clear-all
-    create-turtles 1
-    ask turtles [pen-down repeat 4 [forward 5 rt 90]pen-up]
+;to comenzar
+;  ca
+;  ask patches [set pcolor blue]
+;  crt 1
+;  ask turtles [set color orange set heading 0]
+;  ask turtles [pd repeat 4 [fd 5 rt 90]pu]
+;end
+
+to comenzar
+  ca
+  ask patches [set pcolor blue]
+  crt 1 [set color orange set heading 0]
+  ask turtles [pd repeat 4 [fd 5 rt 90]pu]
 end
+
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
@@ -32,10 +42,10 @@ ticks
 30.0
 
 BUTTON
-75
-67
-160
-100
+39
+95
+124
+128
 NIL
 comenzar
 NIL
