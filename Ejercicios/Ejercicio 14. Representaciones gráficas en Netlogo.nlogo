@@ -28,6 +28,7 @@ to go
                                               ;; del patch situado más a la derecha se entra en el bucle (while) y los
                                               ;; coches seguirán desplazándose una cantidad aleatoria
   [
+    RESET-TICKS
     set distancia_coche_1 random 3            ;; En esta iteración, el coche 1 avanzará una dist. aleatoria entre el 0 y el 2
     set distancia_coche_2 random 3            ;; En esta iteración, el coche 2 avanzará una dist. aleatoria entre 0 y 2
     ask coche 0 [fd distancia_coche_1]        ;; Pedimos al primer coche avance la cantidad aleatoria obtenida
